@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 3px;
+  }
+
+body {
+    min-width: 800px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 50px;
+    margin-bottom: 80px;
+    background-size: 400% 400%;
+    background: #64cbea;
+}
+
+img {
+  width: 420px 10;
+
+}
+
+form {
+  margin-bottom: 30px;
+}
+
+.logo {
+  margin-bottom: 100px;
+  display: flex;
+  margin:auto;
+  right: 50px;
+  padding: 70px 0;
+  align-items: center;
+}
+
+#imgpos {
+  margin-bottom: 100px;
+  right: 180px;
+  margin:auto;
+}
+
+.container {
+    width: 200vw;
+    height: 480vh;
+    padding: 10px;
+    margin-bottom: 360px;
+    display: flex;
+    flex-direction: row;  
+}
+
+.primeira, .segunda, .terceiro, .quarto, .quinto, .sexto, .setimo, .oitavo {
+  margin-top: 60px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 20px;
+  background: #fff;  
+}
+
+
+input[type='file']{
+  display: none;
+}
+
+div {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px 20px 30px;
+
+}
+.box {
+    width: 600px;
+    height: 500px;
+    background: rgb(255, 255, 255);
+}
+
+h1 {
+  text-align: center;
+    font-size: 2rem;
+    padding: 30px 10px ;
+    margin-top: 40px;
+    margin: 0px;
+    font-family: 'Lora', serif;
+}
+
+.button {
+    float: right;
+}
+svg {
+  width: 50px;
+  height: 30px;
+}
+
+svg:hover {
+  color: red;
+}
